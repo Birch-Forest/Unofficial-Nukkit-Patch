@@ -1,0 +1,10 @@
+name: Unofficial_Nukkit_Patch
+main: com.Shanwer.Main.Patch
+author: Shanwer
+api: ["1.0.0"]
+description: Unofficial Nukkit Patch
+commands:
+  Fix:
+    aliases: ["Fix"]
+    description: Fix Chunks
+    usage: "/fix"
