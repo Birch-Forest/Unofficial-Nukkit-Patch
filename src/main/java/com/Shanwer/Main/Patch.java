@@ -31,8 +31,9 @@ public class Patch extends PluginBase implements Listener{
     @EventHandler//监听玩家进入服务器然后修复空背包
     public void onPlayerJoin(PlayerJoinEvent event){
         int fixgamemode = event.getPlayer().getGamemode();
-      if(fixgamemode == 1)
+      if(fixgamemode == 1){
         event.getPlayer().setGamemode(0);
         event.getPlayer().setGamemode(1);
     }
         }
+            }
